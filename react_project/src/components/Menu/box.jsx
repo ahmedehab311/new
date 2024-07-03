@@ -1,5 +1,5 @@
-import { Stack, Container, Typography, Box } from "@mui/material";
-import React from "react";
+import { Container, Typography, Box } from "@mui/material";
+import img from "../Hero/images/game-01.jpg";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
@@ -7,19 +7,21 @@ function box() {
   return (
     <Container>
       <Card sx={{ maxWidth: 230, p: 1 }}>
-        <CardHeader
-          sx={{ textAlign: "center", fontWeight: "bold" }}
-          title="appetizers"
-        />
-        <CardMedia
-          component="img"
-          height="194"
-          image="git push -u origin main/static/images/cards/paella.jpg"
-          alt="Paella dish"
-        />
-        <Typography>appetizers</Typography>
-        <Typography>شيبسي وصلصة</Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography
+          variant="h3"
+          sx={{ textAlign: "center", mb: 2, textTransform: "uppercase" }}
+        >
+          appetizers
+        </Typography>
+
+        <img src={img} width="50px" style={{ display: "flex" }} alt="" />
+        <Typography variant="h4" sx={{ fontSize: "20px", my: 1 }}>
+          CHips & cola
+        </Typography>
+        <Typography sx={{ fontSize: "18px", fontFamily: "Beiruti" }}>
+          شيبسي وصلصة
+        </Typography>
+        <Typography variant="body2" sx={{ my: 1, fontSize: "12px" }}>
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the
           mussels, if you like.

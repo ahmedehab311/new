@@ -1,4 +1,3 @@
-// import React from "react";
 import Header from "./components/header/Header";
 // import Hero from "./components/Hero/Hero"
 import Main from "./components/Main/Main";
@@ -9,7 +8,7 @@ function App() {
     <>
       <Header />
       {/* <Hero/> */}
-      {/* <Main /> */}
+      <Main />
       <Menu />
       <Footer />
     </>

@@ -9,9 +9,6 @@ function box1() {
       <Stack>
         19002
       </Stack>
-      <Stack>
-        19002
-      </Stack>
 
     </Box>
   )

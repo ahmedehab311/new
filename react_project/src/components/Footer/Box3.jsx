@@ -1,11 +1,17 @@
-// import EmailIcon from '@mui/icons-material/Email';
-// import { Stack, Container } from "@mui/material";
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import { Box, Stack, Typography } from "@mui/material";
 
 function Box3() {
   return (
-    <div>
-3      
-    </div>
+    <Box sx={{ display: "flex", alignItems: "center" }}>
+      <Stack>
+        <EmailOutlinedIcon fontSize='20px' margin />
+      </Stack>
+      <Stack>
+        <Typography sx={{ fontSize: "18px" }}>AhmedEhab.47aa@gmail.com</Typography>
+      </Stack>
+
+    </Box>
   )
 }
 
