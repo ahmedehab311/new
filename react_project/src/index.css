@@ -135,14 +135,28 @@ input {
   margin-right: 6px;
 }
 
+@media (max-width: 700px) {
+  .css-1f7bs8i {
+    flex-direction: column;
+  }
+}
+
+
 /* media  */
 /* main  */
-   @media (max-width: 900px){
-.css-1dzpn6f-MuiContainer-root{
-      flex-direction: column ;
-        text-align: center;
-}
-.css-96ndr9-MuiTypography-root{
-  margin-top:5px !important;
-}
+@media (max-width: 900px) {
+  .css-1dzpn6f-MuiContainer-root {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .css-96ndr9-MuiTypography-root {
+    margin-top: 5px !important;
+
+  }
+
+  .css-r12aa3-MuiContainer-root {
+    align-items: center;
+    justify-content: center;
+  }
 }
