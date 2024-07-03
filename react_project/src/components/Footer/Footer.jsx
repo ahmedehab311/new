@@ -7,7 +7,7 @@ function Footer() {
         <Container>
             <Box sx={{ mt: 5, display: "flex", alignItems: "center", justifyContent: "space-between", borderTop: "2px solid #000", background: "red" }}>
                 <Stack>
-                    <Box1 />
+                    <Box1 />k
                 </Stack>
                 <Stack>
                     <Box2 />
