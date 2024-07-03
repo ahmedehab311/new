@@ -1,5 +1,6 @@
 import { Stack, Container, Typography } from "@mui/material";
-import Box from "./box"
+
+import Box from "./box";
 function Menu() {
   return (
     <Container>
@@ -9,7 +10,13 @@ function Menu() {
         >
           MENU
         </Typography>
-        <Stack> <Box/> </Stack>
+        <Stack>
+          {" "}
+          <Box />{" "}
+        </Stack>
+        {/* <Stack>
+          <img src="" alt="" />
+        </Stack> */}
       </Stack>
     </Container>
   );

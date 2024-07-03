@@ -14,7 +14,7 @@ function box() {
         <CardMedia
           component="img"
           height="194"
-          image="/static/images/cards/paella.jpg"
+          image="git push -u origin main/static/images/cards/paella.jpg"
           alt="Paella dish"
         />
         <Typography>appetizers</Typography>
